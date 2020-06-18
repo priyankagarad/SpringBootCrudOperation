@@ -3,10 +3,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/greetingservice")
+@RequestMapping("/api")
 public class EmployeeController {
-    @RequestMapping("/welcomemessage")
-    public String getGreetingMessage(){
-        return "welcome to this Spring boot project";
-    }
+
 }

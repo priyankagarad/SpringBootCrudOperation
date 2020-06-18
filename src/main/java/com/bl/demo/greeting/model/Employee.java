@@ -1,11 +1,11 @@
 package com.bl.demo.greeting.model;
 import org.hibernate.annotations.Entity;
-import org.hibernate.annotations.Table;
 import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.sql.Date;
+import javax.persistence.Table;
 
 @Entity
 @Table(name = "Employee1")
