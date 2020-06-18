@@ -23,11 +23,15 @@ public class EmployeeRepositoryImpl implements EmployeeRepository{
 
     @Override
     public Employee get(int id) {
-        return null;
+        Session currentSession=entityManager.unwrap(Session.class);
+        Employee employee=currentSession.get(Employee.class,id);
+        return employee;
     }
 
     @Override
     public void save(Employee employee) {
+        Session currentSession=entityManager.unwrap(Session.class);
+        currentSession.save(employee);
     }
 
     @Override
