@@ -7,5 +7,6 @@ public interface EmployeeService {
     Employee get(int id);
     Employee save(Employee employee);
     void delete(int id);
+    void Update(int id);
 
 }

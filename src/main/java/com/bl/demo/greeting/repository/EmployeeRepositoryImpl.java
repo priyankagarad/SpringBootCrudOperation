@@ -1,7 +1,6 @@
 package com.bl.demo.greeting.repository;
 import com.bl.demo.greeting.model.Employee;
 import org.hibernate.Session;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
@@ -10,8 +9,7 @@ import java.util.List;
 @Repository
 public class EmployeeRepositoryImpl implements EmployeeRepository{
 
-    @Autowired
-    private EntityManager entityManager;
+     EntityManager entityManager;
 
     @Override
     public List<Employee> get() {
@@ -42,4 +40,4 @@ public class EmployeeRepositoryImpl implements EmployeeRepository{
 
     }
     }
-}
+
