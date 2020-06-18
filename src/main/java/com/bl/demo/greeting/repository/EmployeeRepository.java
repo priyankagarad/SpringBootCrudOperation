@@ -1,4 +1,4 @@
 package com.bl.demo.greeting.repository;
 
-public interface IUserRepository {
+public interface EmployeeRepository {
 }
