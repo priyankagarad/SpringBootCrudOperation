@@ -1,4 +1,4 @@
-package com.bl.demo.greeting;
+package com.bl.demo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
