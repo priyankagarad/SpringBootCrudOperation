@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class EmployeeServiceImpl implements EmployeeService {
+public class EmployeeServiceImplement implements EmployeeService {
 
     @Autowired
     private EmployeeRepository employeeRepository;
